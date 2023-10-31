@@ -11,6 +11,9 @@
 * Fix st2 client config issue affecting addon jobs using jobs.extra_hooks (#370) (by @cars)
 
 
+## v0.110.1 Equinix Changes
+* Add ability to use existing secret for ssh private key. Limitations are that secret must be named <namespace>-st2-ssh with key "private_key".
+
 ## v0.110.0
 * Switch st2 to `v3.8` as a new default stable version (#347)
 * Cover the three most recent Kubernetes versions in Minikube and the single most recent in K3s. (#342) (by @mamercad)
